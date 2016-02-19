@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GL">
+      <UniqueIdentifier>{284c4a14-c963-417d-8936-c5723896f4c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{16dcb835-a0f0-4f21-b1f2-98eef0b389b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{f0804c5e-c38e-42cf-a300-734641999224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GL">
+      <UniqueIdentifier>{1afa4df0-19de-47d4-aaf4-bb82b944a56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GL\Shader">
+      <UniqueIdentifier>{4280ee46-8b6b-4c34-bae2-2b1a05307c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GL\Shader">
+      <UniqueIdentifier>{7e2cc789-adab-4c9d-9594-113bad402ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools\Log">
+      <UniqueIdentifier>{926c4f8d-7291-4bbc-9381-809d70f54815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools\Log">
+      <UniqueIdentifier>{a46fed5a-68a7-475c-9b64-1a1620b804fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools\Log\Target">
+      <UniqueIdentifier>{be99f6e3-6766-4ac8-a2cd-d1e74277c486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools\Log\Target">
+      <UniqueIdentifier>{63a24b24-f257-4daa-b927-eb4d50cb53f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{fc798396-77ac-479e-9c20-4dce213aedd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\shaders">
+      <UniqueIdentifier>{12fc7400-8cba-4b1d-9ab2-b870e7f11574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\shaders\vertex">
+      <UniqueIdentifier>{5098dd5a-cdab-442a-a230-756b41261adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\shaders\fragment">
+      <UniqueIdentifier>{8796a1bd-48b6-4924-b8c9-cb626f25a0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Projects">
+      <UniqueIdentifier>{720df9c1-7f79-4658-815e-5da36009b582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Projects">
+      <UniqueIdentifier>{4fb65fb5-2928-4ae7-9b03-f92708707aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Projects\SimplePassThroughShader">
+      <UniqueIdentifier>{905ae6db-a37c-48af-b74f-5203fbbaab51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Projects\SimplePassThroughShader">
+      <UniqueIdentifier>{97364ec8-35b4-4768-a26a-ac18939277bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GL\Statistics">
+      <UniqueIdentifier>{8ef09748-8d18-4584-85be-e786a2c3cf6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GL\Statistics">
+      <UniqueIdentifier>{9b353226-d2c1-4ee2-bc92-8c82493f73c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\GLMain.cpp">
+      <Filter>Source Files\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\Shader\VertexShader.cpp">
+      <Filter>Source Files\GL\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\DataBuffer.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\FileLoader.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\Shader\Program.cpp">
+      <Filter>Source Files\GL\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\Shader\FragmentShader.cpp">
+      <Filter>Source Files\GL\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Log\Target\DebugOutput.cpp">
+      <Filter>Source Files\Tools\Log\Target</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Log\Target\FileOutput.cpp">
+      <Filter>Source Files\Tools\Log\Target</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Log\Logger.cpp">
+      <Filter>Source Files\Tools\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\Shader\Manager.cpp">
+      <Filter>Source Files\GL\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Projects\SimplePassThroughShader\SimplePassThroughShader.cpp">
+      <Filter>Source Files\Projects\SimplePassThroughShader</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\Statistics\FPSCounter.cpp">
+      <Filter>Source Files\GL\Statistics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gl\GLMain.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Singleton.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\Shader\Interface.h">
+      <Filter>Header Files\GL\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\Shader\VertexShader.h">
+      <Filter>Header Files\GL\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\DataBuffer.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\FileLoader.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\Shader\Program.h">
+      <Filter>Header Files\GL\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\Shader\FragmentShader.h">
+      <Filter>Header Files\GL\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Log\Interfaces.h">
+      <Filter>Header Files\Tools\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Log\Target\DebugOutput.h">
+      <Filter>Header Files\Tools\Log\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Log\Target\FileOutput.h">
+      <Filter>Header Files\Tools\Log\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Log\Target\Base.h">
+      <Filter>Header Files\Tools\Log\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Log\Logger.h">
+      <Filter>Header Files\Tools\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ExtFilesystem.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\Shader\Manager.h">
+      <Filter>Header Files\GL\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\SimplePassThroughShader\SimplePassThroughShader.h">
+      <Filter>Header Files\Projects\SimplePassThroughShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\SimplePassThroughShader\Helper.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Size.h">
+      <Filter>Header Files\Tools\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ScreenResolution.h">
+      <Filter>Header Files\Tools\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\Statistics\FPSCounter.h">
+      <Filter>Header Files\GL\Statistics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\shaders\vertex\triangles.vertex">
+      <Filter>Data\shaders\vertex</Filter>
+    </None>
+    <None Include="Data\shaders\fragment\triangles.fragment">
+      <Filter>Data\shaders\fragment</Filter>
+    </None>
+  </ItemGroup>
+</Project>
